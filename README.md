@@ -1,5 +1,7 @@
 # Task Manager App - Flutter Web (Local Mode)
 
+URL : https://696fe948af3de6a2126892b4--taskmngmt.netlify.app/
+
 A modern task management web application built with Flutter Web, featuring **local storage** (no backend required!), clean architecture, and BLoC state management.
 
 ## ✨ Key Features
