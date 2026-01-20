@@ -1,6 +1,6 @@
 import '../../domain/entities/task_entity.dart';
 import '../../domain/repositories/task_repository.dart';
-import '../datasources/firestore_task_datasource.dart';
+import '../datasources/local_task_datasource.dart';
 
 class TaskRepositoryImpl implements TaskRepository {
   final LocalTaskDataSource dataSource;

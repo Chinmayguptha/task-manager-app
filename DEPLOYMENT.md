@@ -1,145 +1,71 @@
-# Deployment Guide
+# 🚀 Deployment Instructions
 
-## Deploy to Netlify (Recommended)
+## ✅ Step 1: Code on GitHub - DONE!
 
-### Method 1: Drag and Drop (Easiest)
+Your code is now live at:
+**https://github.com/Chinmayguptha/task-manager-app**
 
-1. **Build your app**
-   ```bash
-   flutter build web --release --dart-define=SUPABASE_URL=https://your-project.supabase.co --dart-define=SUPABASE_ANON_KEY=your-anon-key
-   ```
+---
 
-2. **Go to Netlify**
-   - Visit https://app.netlify.com
-   - Sign in with GitHub/Email
+## 📦 Step 2: Build for Web - IN PROGRESS
 
-3. **Deploy**
-   - Drag the `build/web` folder to Netlify
-   - Your site will be live in seconds!
-   - You'll get a URL like: `https://random-name.netlify.app`
+The app is being built for web deployment...
 
-4. **Add Environment Variables** (Important!)
-   - Go to Site settings → Environment variables
-   - Add:
-     - `SUPABASE_URL` = your Supabase project URL
-     - `SUPABASE_ANON_KEY` = your Supabase anon key
+Once the build completes, you'll have a `build\web` folder ready to deploy.
 
-5. **Redeploy**
-   - Go to Deploys → Trigger deploy
+---
 
-### Method 2: GitHub Integration (Auto-deploy)
+## 🌐 Step 3: Deploy to Netlify
 
-1. **Push to GitHub**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/yourusername/task-manager-app.git
-   git push -u origin main
-   ```
+### Option A: Manual Deploy (Fastest - 2 minutes)
 
-2. **Connect to Netlify**
-   - In Netlify, click "Add new site" → "Import an existing project"
-   - Choose GitHub
-   - Select your repository
-   - Build settings:
-     - Build command: `flutter build web --release`
-     - Publish directory: `build/web`
-   - Add environment variables
+1. **Go to Netlify:**
+   - Visit: https://app.netlify.com
+   - Sign up/login (use your GitHub account for easy login)
+
+2. **Deploy:**
+   - Click "Add new site" → "Deploy manually"
+   - Drag and drop the entire `build\web` folder
+   - Wait 30 seconds
+   - You'll get a URL like: `https://your-app-name.netlify.app`
+
+3. **Done!** Share the URL with Whatbytes
+
+### Option B: GitHub Integration (Auto-deploy on every push)
+
+1. **Connect to Netlify:**
+   - Go to https://app.netlify.com
+   - Click "Add new site" → "Import an existing project"
+   - Choose "GitHub"
+   - Select `task-manager-app` repository
+
+2. **Configure Build:**
+   - Build command: `flutter build web --release`
+   - Publish directory: `build/web`
    - Click "Deploy site"
 
----
+3. **Wait 2-3 minutes** for the first build
 
-## Deploy to Vercel
-
-### Method 1: Vercel CLI
-
-1. **Install Vercel CLI**
-   ```bash
-   npm install -g vercel
-   ```
-
-2. **Build and Deploy**
-   ```bash
-   flutter build web --release --dart-define=SUPABASE_URL=https://your-project.supabase.co --dart-define=SUPABASE_ANON_KEY=your-anon-key
-   cd build/web
-   vercel --prod
-   ```
-
-3. **Follow prompts**
-   - Login to Vercel
-   - Set up project
-   - Your site will be live!
-
-### Method 2: GitHub Integration
-
-1. **Push to GitHub** (same as above)
-
-2. **Import to Vercel**
-   - Go to https://vercel.com
-   - Click "Add New" → "Project"
-   - Import your GitHub repository
-   - Framework Preset: Other
-   - Build Command: `flutter build web --release`
-   - Output Directory: `build/web`
-   - Add environment variables
-   - Click "Deploy"
+4. **Future updates:** Just push to GitHub and Netlify auto-deploys!
 
 ---
 
-## Custom Domain (Optional)
+## 🎯 What You'll Have
 
-### On Netlify
-1. Go to Domain settings
-2. Add custom domain
-3. Update DNS records as instructed
-
-### On Vercel
-1. Go to Settings → Domains
-2. Add your domain
-3. Update DNS records
+After deployment:
+- ✅ GitHub repo: https://github.com/Chinmayguptha/task-manager-app
+- ✅ Live demo: https://your-app-name.netlify.app
+- ✅ Both links to submit to Whatbytes!
 
 ---
 
-## Environment Variables
+## 📝 For Submission
 
-Both platforms need these variables:
-
-```
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-```
-
-Get these from your Supabase project dashboard → Settings → API
+Include in your email to Whatbytes:
+1. **GitHub URL**: https://github.com/Chinmayguptha/task-manager-app
+2. **Live Demo**: [Your Netlify URL]
+3. **Features**: All requirements met (authentication, CRUD, filtering, clean architecture, BLoC)
 
 ---
 
-## Troubleshooting
-
-**Build fails:**
-- Make sure Flutter is installed: `flutter doctor`
-- Run `flutter clean` then `flutter pub get`
-
-**App loads but can't connect to Supabase:**
-- Check environment variables are set correctly
-- Verify Supabase URL and key are correct
-- Check browser console for errors
-
-**404 errors on refresh:**
-- Make sure `netlify.toml` or `vercel.json` is in your repository
-- These files configure SPA routing
-
----
-
-## 🎉 Success!
-
-Your app should now be live and accessible to anyone with the URL!
-
-Share the link with:
-- Whatbytes team for assignment review
-- Friends and colleagues
-- Portfolio visitors
-
-**Example URLs:**
-- Netlify: `https://task-manager-app-whatbytes.netlify.app`
-- Vercel: `https://task-manager-app.vercel.app`
+**Next:** Once the build finishes, go to Netlify and drag the `build\web` folder!

@@ -150,13 +150,13 @@ class TaskCard extends StatelessWidget {
   }
 }
 
-class FilterChip extends StatelessWidget {
+class CustomFilterChip extends StatelessWidget {
   final String label;
   final bool isSelected;
   final VoidCallback onTap;
   final Color? color;
 
-  const FilterChip({
+  const CustomFilterChip({
     super.key,
     required this.label,
     required this.isSelected,

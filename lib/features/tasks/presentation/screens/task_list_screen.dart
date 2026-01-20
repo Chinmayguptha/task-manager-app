@@ -160,7 +160,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
         scrollDirection: Axis.horizontal,
         child: Row(
           children: [
-            FilterChip(
+            CustomFilterChip(
               label: AppStrings.all,
               isSelected: _selectedPriority == null && _selectedCompleted == null,
               onTap: () {
@@ -172,7 +172,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
               },
             ),
             const SizedBox(width: 8),
-            FilterChip(
+            CustomFilterChip(
               label: AppStrings.high,
               isSelected: _selectedPriority == TaskPriority.high,
               color: AppColors.priorityHigh,
@@ -187,7 +187,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
               },
             ),
             const SizedBox(width: 8),
-            FilterChip(
+            CustomFilterChip(
               label: AppStrings.medium,
               isSelected: _selectedPriority == TaskPriority.medium,
               color: AppColors.priorityMedium,
@@ -202,7 +202,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
               },
             ),
             const SizedBox(width: 8),
-            FilterChip(
+            CustomFilterChip(
               label: AppStrings.low,
               isSelected: _selectedPriority == TaskPriority.low,
               color: AppColors.priorityLow,
@@ -217,7 +217,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
               },
             ),
             const SizedBox(width: 8),
-            FilterChip(
+            CustomFilterChip(
               label: AppStrings.completed,
               isSelected: _selectedCompleted == true,
               onTap: () {
@@ -231,7 +231,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
               },
             ),
             const SizedBox(width: 8),
-            FilterChip(
+            CustomFilterChip(
               label: AppStrings.incomplete,
               isSelected: _selectedCompleted == false,
               onTap: () {

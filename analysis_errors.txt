@@ -1,0 +1,357 @@
+﻿
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:2:26 - const
+_initialized_with_non
+_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:2:26 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:3:30 - const
+_initialized_with_non
+_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:3:30 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:4:28 - const
+_initialized_with_non
+_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:4:28 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:5:29 - const
+_initialized_with_non
+_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:5:29 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:6:33 - const
+_initialized_with_non
+_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:6:33 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:7:30 - const
+_initialized_with_non
+_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:7:30 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:8:32 - const
+_initialized_with_non
+_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:8:32 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:9:24 - const
+_initialized_with_non
+_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:9:24 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:10:26 - cons
+t_initialized_with_no
+n_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:10:26 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:13:31 - cons
+t_initialized_with_no
+n_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:13:31 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:14:33 - cons
+t_initialized_with_no
+n_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:14:33 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:15:30 - cons
+t_initialized_with_no
+n_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:15:30 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:18:32 - cons
+t_initialized_with_no
+n_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:18:32 - 
+undefined_method
+  error - Const 
+variables must be 
+initialized with a 
+constant value - lib\
+core\constants\consta
+nts.dart:19:30 - cons
+t_initialized_with_no
+n_constant_value
+  error - The method 
+'Color' isn't 
+defined for the type 
+'AppColors' - lib\cor
+e\constants\constants
+.dart:19:30 - 
+undefined_method
+  error - 
+'FilterChip' isn't a 
+function - lib\featur
+es\tasks\presentation
+\screens\task_list_sc
+reen.dart:163:13 - in
+vocation_of_non_funct
+ion
+  error - The name 
+'FilterChip' is 
+defined in the 
+libraries 'package:fl
+utter/src/material/fi
+lter_chip.dart (via p
+ackage:flutter/materi
+al.dart)' and 'packag
+e:task_manager_app/fe
+atures/tasks/presenta
+tion/widgets/task_wid
+gets.dart' - lib\feat
+ures\tasks\presentati
+on\screens\task_list_
+screen.dart:163:13 - 
+ambiguous_import
+  error - 
+'FilterChip' isn't a 
+function - lib\featur
+es\tasks\presentation
+\screens\task_list_sc
+reen.dart:175:13 - in
+vocation_of_non_funct
+ion
+  error - The name 
+'FilterChip' is 
+defined in the 
+libraries 'package:fl
+utter/src/material/fi
+lter_chip.dart (via p
+ackage:flutter/materi
+al.dart)' and 'packag
+e:task_manager_app/fe
+atures/tasks/presenta
+tion/widgets/task_wid
+gets.dart' - lib\feat
+ures\tasks\presentati
+on\screens\task_list_
+screen.dart:175:13 - 
+ambiguous_import
+  error - 
+'FilterChip' isn't a 
+function - lib\featur
+es\tasks\presentation
+\screens\task_list_sc
+reen.dart:190:13 - in
+vocation_of_non_funct
+ion
+  error - The name 
+'FilterChip' is 
+defined in the 
+libraries 'package:fl
+utter/src/material/fi
+lter_chip.dart (via p
+ackage:flutter/materi
+al.dart)' and 'packag
+e:task_manager_app/fe
+atures/tasks/presenta
+tion/widgets/task_wid
+gets.dart' - lib\feat
+ures\tasks\presentati
+on\screens\task_list_
+screen.dart:190:13 - 
+ambiguous_import
+  error - 
+'FilterChip' isn't a 
+function - lib\featur
+es\tasks\presentation
+\screens\task_list_sc
+reen.dart:205:13 - in
+vocation_of_non_funct
+ion
+  error - The name 
+'FilterChip' is 
+defined in the 
+libraries 'package:fl
+utter/src/material/fi
+lter_chip.dart (via p
+ackage:flutter/materi
+al.dart)' and 'packag
+e:task_manager_app/fe
+atures/tasks/presenta
+tion/widgets/task_wid
+gets.dart' - lib\feat
+ures\tasks\presentati
+on\screens\task_list_
+screen.dart:205:13 - 
+ambiguous_import
+  error - 
+'FilterChip' isn't a 
+function - lib\featur
+es\tasks\presentation
+\screens\task_list_sc
+reen.dart:220:13 - in
+vocation_of_non_funct
+ion
+  error - The name 
+'FilterChip' is 
+defined in the 
+libraries 'package:fl
+utter/src/material/fi
+lter_chip.dart (via p
+ackage:flutter/materi
+al.dart)' and 'packag
+e:task_manager_app/fe
+atures/tasks/presenta
+tion/widgets/task_wid
+gets.dart' - lib\feat
+ures\tasks\presentati
+on\screens\task_list_
+screen.dart:220:13 - 
+ambiguous_import
+  error - 
+'FilterChip' isn't a 
+function - lib\featur
+es\tasks\presentation
+\screens\task_list_sc
+reen.dart:234:13 - in
+vocation_of_non_funct
+ion
+  error - The name 
+'FilterChip' is 
+defined in the 
+libraries 'package:fl
+utter/src/material/fi
+lter_chip.dart (via p
+ackage:flutter/materi
+al.dart)' and 'packag
+e:task_manager_app/fe
+atures/tasks/presenta
+tion/widgets/task_wid
+gets.dart' - lib\feat
+ures\tasks\presentati
+on\screens\task_list_
+screen.dart:234:13 - 
+ambiguous_import
+
+
